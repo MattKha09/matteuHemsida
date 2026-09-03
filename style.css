@@ -1,0 +1,22 @@
+*{transition: 20ms;
+box-shadow:rgb(0, 92, 23);
+background-color: rgba(51, 0, 146, 0.747);}
+
+h1{
+    color:aquamarine;
+    text-align: center;
+}
+
+p{
+    color:aquamarine;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+a{
+   margin-left: 32cm;
+   
+}
