@@ -1,22 +1,32 @@
 *{transition: 20ms;
-box-shadow:rgb(0, 92, 23);
-background-color: rgba(51, 0, 146, 0.747);}
+box-shadow:rgb(238, 238, 238);
+background-color: rgba(203, 195, 218, 0.747);}
 
 h1{
     color:aquamarine;
     text-align: center;
 }
 
-p{
-    color:aquamarine;
-    text-align: center;
+.nav{
+    display: flex;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    flex-direction:column;
+    
 }
 
-h3{
-    text-align: center;
+.nav li a{
+  display: block;
+  color: #1c02ff;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-a{
-   margin-left: 32cm;
-   
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.container > div{
+  margin: 10px;
 }
