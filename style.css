@@ -1,32 +1,53 @@
 *{transition: 20ms;
 box-shadow:rgb(238, 238, 238);
-background-color: rgba(203, 195, 218, 0.747);}
+background-color: rgb(120, 120, 121);}
 
 h1{
     color:aquamarine;
     text-align: center;
 }
 
+h1:hover{
+    color: rgb(0, 0, 0);
+}
 .nav{
     display: flex;
     list-style-type: none;
     color: rgb(0, 0, 0);
     flex-direction:column;
+    background-color: rgb(0, 0, 0);
+    padding: 300px 10px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px rgb(253, 1, 1);
     
+}
+
+.nav li a:hover{
+    color: rgb(255, 255, 255);
 }
 
 .nav li a{
   display: block;
-  color: #1c02ff;
+  color: #008cff;
   padding: 14px 16px;
   text-decoration: none;
+   background-color: rgb(0, 0, 0);
+
 }
 
 .container{
   display: flex;
   flex-direction: row;
+  
+ 
+
 }
 
+ p{
+    text-align: center;
+    item-align: center;
+    
+}
 .container > div{
-  margin: 10px;
+  margin: 50px;
 }
