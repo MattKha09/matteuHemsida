@@ -11,8 +11,67 @@ header{
     background-color: rgb(54, 54, 54);
     flex-direction: row;
     padding: 20px ;
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  
 }
 .navbar li a{
     color: rgb(253, 249, 2);
     text-decoration: none;
+    display: block;
+      margin: 10px;
 }
+
+.navbar li a:hover{
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.storRektangel{
+    width: 59%;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(143, 134, 123);
+    display: flex;
+    margin: 10px;
+}
+
+.litenRektangel{
+    width: 39%;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(143, 134, 123);
+
+}
+
+.footer{
+    background-color: rgb(88, 48, 48);
+    text-align: center;
+    padding: 30px;
+    flex-direction: flex;
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.footer li p{
+    color: rgb(245, 245, 245);
+    display: block;
+      margin: 10px;
+} 
+
+.inreRektangel{
+        width: 59%;
+        flex-direction: column;
+        background-color: rgb(245, 245, 245);
+        padding: 230px 200px;
+        border-radius: 80px;
+        text-align: center;
+        display: flex;
+    }
